@@ -1,0 +1,158 @@
+// // import Head from 'next/head'
+// // import Image from 'next/image'
+// // import { Inter } from 'next/font/google'
+// // import styles from '@/styles/Home.module.css'
+// // import { createClient } from "next-sanity";
+// // import PortableText from "react-portable-text"
+
+// // const inter = Inter({ subsets: ['latin'] })
+
+// // export default function Home({blogs}) {
+// //   console.log(blogs[1])
+// //   return (
+// //     <>
+// //      {/* <div className="cont text-sky-400"><h1> {blogs[0].title} </h1>  </div> */}
+// //      {/* <PortableText
+     
+// //       content={blogs[2].content}
+// //       projectId = "liq8cp7u"
+// //       dataset = "production"
+// //       // serializers={{
+// //       //   h1: (props) => <h1 style={{ color: "red" }} {...props} />,
+// //       //   li: ({ children }) => <li className="special-list-item">{children}</li>,
+  
+// //       // }}
+// // //       <div className="card" style={{width: "18rem" }} >
+// // //   <img src="..." className="card-img-top" alt="...">
+// // //   <div className="card-body">
+// // //     <h5 className="card-title">Card title</h5>
+// // //     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+// // //     <a href="#" className="btn btn-primary">Go somewhere</a>
+// // //   </div>
+// // // </div>
+// //  /> */}
+
+
+
+// //     </>
+  
+// //   )
+// // }
+
+// // export async function getServerSideProps(context) {
+// //   const client = createClient({
+// //     projectId: "liq8cp7u",
+// //     dataset: "production",
+// //     useCdn: true
+// //   });
+// //   const query = `*[_type == "blog"]`;
+// //   // const blogs = await client.fetch(query);
+
+// //   // const profileQuery = `*[_type == "profile"][0]`;
+// //   // const profile = await client.fetch(profileQuery);
+// //   const blogs = await client.fetch(query);
+
+// //   return {
+// //     props: {
+// //      blogs
+// //     }
+// //   }
+// // }
+
+
+
+
+
+
+
+// import Head from 'next/head'
+// import Image from 'next/image'
+// import styles from '../styles/Home.module.css'
+// import { createClient } from "next-sanity";
+
+// import Script from "next/script"
+// import { useEffect } from 'react';
+// import imageUrlBuilder from '@sanity/image-url'
+// import Link from 'next/link'
+// import { render } from 'react-dom';
+// // import NavBar from '../components/NavBar';
+
+// export default function Home({ blogs}) {
+//   const client = createClient({
+//     projectId: "liq8cp7u",
+//     dataset: "production",
+//     useCdn: false
+//   });
+//   // const builder = imageUrlBuilder(client)
+//   // useEffect(()=>{
+//   //   console.log(jay)
+
+//   // },[])
+//   // const profile = {
+//   //   title: "WorkWithHarry",
+//   //   name: "Harry",
+//   //   image: "https://insanebiography.com/wp-content/uploads/codewithharry_108099807_133124151765153_6863548870509034899_n-min-edited.jpg",
+//   //   fbLink: "https://facebook.com/codewithharry",
+//   //   twitterLink: "https://twitter.com/codewithharry",
+//   //   instagramLink: "https://instagram.com/codewithharry",
+//   // }
+  
+  
+//   render(
+
+
+
+//   )
+// } 
+
+
+// export async function getServerSideProps(context) {
+//   const client = createClient({
+//     projectId: "liq8cp7u",
+//     dataset: "production",
+//     useCdn: true
+//   });
+//   const query = `*[_type == "blog"]`;
+//   // const blogs = await client.fetch(query);
+
+//   // const profileQuery = `*[_type == "profile"][0]`;
+//   // const profile = await client.fetch(profileQuery);
+//   const blogs = await client.fetch(query);
+
+//   return {
+//     props: {
+//      blogs
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==============================================================================================================================================================================================
